@@ -1,0 +1,78 @@
+.TH edward-shen 1 "2019-04-10" "4.3.2" "Edward Shen Manual"
+
+.SH NAME
+edward-shen \- some random software developer
+
+.SH SYNOPSIS
+Honors candidate for a Bachelor of Science in Computer Science at
+Northeastern University with a 3.81 GPA, expecting to gradudate in 2021.
+
+Classes taken include but not limited to:
+  Data Collection, Integration, and Analysis; Machine Learning/Data
+  Mining 1; Algorithms and Data; Object-Oriented Design; Discrete
+  Structures; Networks and Distributed Systems; Logic and Computation
+
+.SH DESCRIPTION
+Edward Shen is compatible with many languages. However, some are
+more compatible than others:
+
+  Proficient: JavaScript (Node.js), Java, HTML5, CSS
+.br
+    Familiar: Rust, Python, Typescript, Latex
+.br
+    Explored: C/C++, Ruby, Racket
+
+Edward Shen is also compatbile with some frameworks:
+
+  ReactJS, GraphQL, Sass
+
+Finally, there's some integration with some miscellaneous tools:
+
+  Git, Jekyll, (Arch) Linux, Zsh, VS Code, Raspberry Pi
+
+.SH EXAMPLES
+Software Engineer Intern @ Datto - 2019-08-19 to 2019-12-20
+.br
+Worked on the Backupify team.
+
+Production Engineer Intern @ Facebook - 2019-05-13 to 2019-08-02
+.br
+Team TBD.
+
+.SH SEE ALSO
+Dotfile \- A Rust CLI to manage config my Arch linux config files. Has
+advanced capabilities to assign post-install installations.
+
+MagicMirror\*{2\*} Modules \- Multiple modules developed for a smart
+mirror platform. Includes a modules to show MBTA station data and a
+module page multiplexer. Gets around 50 downloads every week.
+
+Harmony \- Husky Hacks Hackathon winner. Peer-to-peer encrypted group
+messaging system based on the (n+1)sec protocol, offering deniable
+distributed communications and forward secrecy.
+
+.SH BUGS
+Edward Shen has a few bugs. However, these bugs are minor, and will not
+affect daily usage of Edward Shen. The following list is a set of
+notable bugs:
+
+#402: Edward Shen contains 20% bloat as consequence of design choices.
+      We are currently looking into a solution.
+
+#421: Edward Shen requires a lot of resources to run. Notably, we see
+      that Edward Shen requires a lot of caffeine more work is done.
+
+.SH AUTHOR
+Edward Shen <code@eddie.sh> - Primary Author
+
+Edward Shen is only possible thanks to two upstream projects, which are
+closed sourced and have requested to remain anonymous. A sister project
+has also greatly contributed to Edward Shen.
+
+We would also like to thank all contributors and friends who had helped
+develop Edward Shen.
+
+.SH COPYRIGHT
+This man page is under GPLv3 or later. To use Edward Shen for any
+purpose, please contact Edward Shen <code@eddie.sh> to request a
+license.

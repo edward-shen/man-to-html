@@ -1,0 +1,35 @@
+#!/usr/bin/env bash
+
+read -r -d '' front << EOF
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Edward Shen Manual</title>
+<style>
+body, p, h1 {
+  font-family: monospace;
+  display: inline-block;
+  max-width: 73ch;
+  width: 73ch;
+  margin: 0;
+  line-height: 1rem;
+  font-size: 1rem;
+  word-wrap: wrap;
+}
+body { margin: 1rem }
+p { margin-left: 7ch; margin-bottom: 1rem }
+.formatted { margin-left: 0; white-space: pre }
+</style>
+</head>
+
+<body>
+<p class="formatted">EDWARD-SHEN(1)                 Edward Shen Manual                 EDWARD-SHEN(1)</p>
+EOF
+
+read -r -d '' back << EOF
+<p class="formatted">3.2.4                          2019-04-10                         EDWARD-SHEN(1)</p>
+</body>
+</html>
+EOF
+
+echo "$front$(pandoc -f man -t html "$1")$back" > "$2"
