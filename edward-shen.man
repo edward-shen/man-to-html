@@ -1,4 +1,4 @@
-.TH edward-shen 1 "2019-04-10" "4.3.2" "Edward Shen Manual"
+.TH edward-shen 7 "2019-04-10" "4.3.2" "Edward Shen Manual"
 
 .SH NAME
 edward-shen \- some random software developer
