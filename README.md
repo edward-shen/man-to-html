@@ -5,17 +5,22 @@ Opinionated man page (roff) to html converter.
 ### Usage
 Here's how [my man page](https://man.eddie.sh) is created:
 ```bash
-./man-to-html edward-shen.man index.html edward-shen "Edward Shen Manual"
+./man-to-html edward-shen.man index.html
 ```
 
-You can also specify version number, page number, and date:
-```bash
-./man-to-html edward-shen.man index.html edward-shen "Edward Shen Manual" 4.2.0 1 "January 1st, 1970"
+This script will automatically fetch in metadata information from the
+man page. Specifically, it'll parse the first line:
+
+```roff
+.TH cmd-name page date version title
 ```
+
+This might not work and will likely break if the man page's first line
+isn't in that exact format.
 
 ### Prereqs
 
-- `pandoc`
+Install `pandoc`.
 
 
 
