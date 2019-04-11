@@ -23,11 +23,11 @@ p { margin-left: 7ch; margin-bottom: 1rem }
 </head>
 
 <body>
-<p class="formatted">EDWARD-SHEN(1)                 Edward Shen Manual                 EDWARD-SHEN(1)</p>
+<p class="formatted">EDWARD-SHEN(7)                 Edward Shen Manual                 EDWARD-SHEN(7)</p>
 EOF
 
 read -r -d '' back << EOF
-<p class="formatted">3.2.4                          2019-04-10                         EDWARD-SHEN(1)</p>
+<p class="formatted">3.2.4                          2019-04-10                         EDWARD-SHEN(7)</p>
 </body>
 </html>
 EOF
