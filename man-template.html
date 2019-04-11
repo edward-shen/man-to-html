@@ -15,14 +15,26 @@ body, p, h1 {
 }
 body { margin: 1rem }
 p { margin-left: 7ch; margin-bottom: 1rem }
-.formatted { margin-left: 0; white-space: pre }
+.formatted {
+  width: 80ch;
+  max-width: 80ch;
+  display: flex;
+  justify-content: space-between;
+}
+.formatted p { margin-left: 0; width:max-content }
 </style>
 </head>
 <body>
-<p class="formatted">EDWARD-SHEN(7)                 Edward Shen Manual                 EDWARD-SHEN(7)</p>
-$header$
+<div class="formatted">
+  <p>$cmd$</p>
+  <p>$title$</p>
+  <p>$cmd$</p>
+</div>
 $body$
-$footer$
-<p class="formatted">3.2.4                          2019-04-10                         EDWARD-SHEN(7)</p>
+<div class="formatted">
+  <p>$version$</p>
+  <p>$date$</p>
+  <p>$cmd$</p>
+</div>
 </body>
 </html>

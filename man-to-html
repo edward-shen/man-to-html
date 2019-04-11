@@ -1,8 +1,18 @@
 #!/usr/bin/env bash
 
-title="Edward Shen Manual"
+if [[ $# -ne 4 ]]; then
+  echo "USAGE: ./man-to-html INPUT OUTPUT COMMAND TITLE [ VERSION PAGE DATE ]"
+  exit 1
+fi
+
+set -euo pipefail
+
+version=${5:-"3.2.4"}
+page=${6:-"7"}
+date=${7:-"$(date +"%Y-%m-%d")"}
 
 pandoc -f man -t html \
   --template man-template \
-  -M title="$title" \
+  -M title="$4" -M date="$date" \
+  -M version="$version" -M cmd="${3^^}($page)" \
   "$1" > "$2"

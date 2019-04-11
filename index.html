@@ -15,12 +15,21 @@ body, p, h1 {
 }
 body { margin: 1rem }
 p { margin-left: 7ch; margin-bottom: 1rem }
-.formatted { margin-left: 0; white-space: pre }
+.formatted {
+  width: 80ch;
+  max-width: 80ch;
+  display: flex;
+  justify-content: space-between;
+}
+.formatted p { margin-left: 0; width:max-content }
 </style>
 </head>
 <body>
-<p class="formatted">EDWARD-SHEN(7)                 Edward Shen Manual                 EDWARD-SHEN(7)</p>
-
+<div class="formatted">
+  <p>EDWARD-SHEN(7)</p>
+  <p>Edward Shen Manual</p>
+  <p>EDWARD-SHEN(7)</p>
+</div>
 <h1>NAME</h1>
 <p>edward-shen - some random software developer</p>
 <h1>SYNOPSIS</h1>
@@ -54,7 +63,10 @@ Team TBD.</p>
 <p>We would also like to thank all contributors and friends who had helped develop Edward Shen.</p>
 <h1>COPYRIGHT</h1>
 <p>This man page is under GPLv3 or later. To use Edward Shen for any purpose, please contact Edward Shen &lt;code@eddie.sh&gt; to request a license.</p>
-
-<p class="formatted">3.2.4                          2019-04-10                         EDWARD-SHEN(7)</p>
+<div class="formatted">
+  <p>3.2.4</p>
+  <p>2019-04-11</p>
+  <p>EDWARD-SHEN(7)</p>
+</div>
 </body>
 </html>
