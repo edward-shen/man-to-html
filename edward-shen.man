@@ -60,7 +60,8 @@ notable bugs:
       We are currently looking into a solution.
 
 #421: Edward Shen requires a lot of resources to run. Notably, we see
-      that Edward Shen requires a lot of caffeine more work is done.
+      that Edward Shen requires an exponential amount of caffeine as
+      more work is demanded simutaneously.
 
 .SH AUTHOR
 Edward Shen <code@eddie.sh> - Primary Author
